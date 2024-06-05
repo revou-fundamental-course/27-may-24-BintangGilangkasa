@@ -1,1 +1,45 @@
-/* ini css 
+nav {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+nav>section{
+    display: flex;
+    align-items: center;
+
+}
+
+
+.logo-icon {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-image: url(https://cdn.prod.website-files.com/61af164800e38c4f53c60b4e/61af164800e38c11efc60b6d_RevoU.svg);
+    background-size: cover;
+    background-repeat: repeat;
+
+}
+
+.nav-item {
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    color: black;
+    text-decoration: none;
+}
+
+.banner-container {
+    height: 258px;
+    border: 1px solid black;
+}
+
+.facilities_list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.form-result {
+    height: 100px;;
+    border: 1px solid black;
+}
